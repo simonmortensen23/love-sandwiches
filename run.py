@@ -52,7 +52,8 @@ def validate_data(values):
         return False
 
     return True    
-
+"""
+Refactoring these two functions in one underneath comment
 def update_sales_worksheet(data):
     """
     Update sales worksheet, add new row with the list data provided.
@@ -70,7 +71,7 @@ def update_surplus_worksheet(data):
     surplus_worksheet = SHEET.worksheet("surplus")
     surplus_worksheet.append_row(data)
     print("Surplus worksheet updated succesfully \n")
-
+"""
 def update_worksheet(data, worksheet):
     """
     Receives a list of integers to be inserted into a worksheet
